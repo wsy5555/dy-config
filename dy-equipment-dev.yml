@@ -1,0 +1,19 @@
+---
+server:
+  context-path: /equipment
+  port: 9003
+  gateway:
+    name: gateway
+spring:
+  application:
+    name: dy-equipment
+
+logging:
+  level:
+    com.witc.equipment.dao: debug
+
+mybatis:
+    # Mybatis配置Mapper路径
+    mapper-locations: classpath:mapper/*.xml
+    # Mybatis配置Model类对应
+    type-aliases-package: com.witc.common.moduals.equipment.entity

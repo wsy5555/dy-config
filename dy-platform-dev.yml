@@ -1,0 +1,20 @@
+---
+server:
+  context-path: /platform
+  port: 9008
+  gateway:
+    name: gateway
+spring:
+  application:
+    name: dy-platform
+
+logging:
+  level:
+    com.witc.platform.dao: debug
+
+mybatis:
+    # Mybatis配置Mapper路径
+    mapper-locations: classpath:mapper/*.xml
+    # Mybatis配置Model类对应
+    type-aliases-package: com.witc.common.moduals.platform.entity
+

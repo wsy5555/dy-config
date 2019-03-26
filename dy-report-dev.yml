@@ -1,0 +1,9 @@
+---
+server:
+  context-path: /report
+  port: 9005
+  gateway:
+    name: gateway
+spring:
+  application:
+    name: dy-report
