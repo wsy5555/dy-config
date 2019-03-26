@@ -1,9 +1,4 @@
----
-server:
-  context-path: /report
-  port: 9005
-  gateway:
-    name: gateway
-spring:
-  application:
-    name: dy-report
+logging:
+  level:
+    com.witc.report.dao: debug
+
