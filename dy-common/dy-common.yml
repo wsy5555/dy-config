@@ -15,7 +15,7 @@ spring:
     config:
       override-none: true
   zipkin:
-    base-url: http://localhost:7008
+#    base-url: http://localhost:7008
 #    rabbitmq:
 #      queue: zipkin
   sleuth:
@@ -26,6 +26,7 @@ spring:
     password: ${RABBITMQ_PASSWORD:123456}
     port: ${RABBITMQ_PORT:5672}
     host: ${RABBITMQ_HOST:192.168.1.200}
+    virtualHost: ${RABBITMQ_VHOST:dy}
   redis:
       cluster:
         nodes: ${REDIS_NODES:192.168.1.211:6479,192.168.1.211:6579,192.168.1.211:6679,192.168.1.212:6779,192.168.1.212:6879,192.168.1.212:6979}
@@ -97,7 +98,6 @@ logging:
   level:
     root: INFO
     com.witc: debug
-    org.springframework.web: DEBUG
 
 #springboot2.0的时候必须配置include: '*'
 management:
