@@ -1,3 +1,7 @@
 logging:
   level:
     com.witc.base.dao: debug
+
+mybatis-plus:
+  typeAliasesPackage: com.witc.common.moduals.base.entity
+  typeEnumsPackage: com.witc.common.moduals.base.entity.enums
