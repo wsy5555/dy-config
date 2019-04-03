@@ -152,8 +152,6 @@ witc:
   core:
     jwt:
       enable: false
-
-witc:
   tenant:
     column: company_id
     tables:
