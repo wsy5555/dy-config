@@ -146,7 +146,7 @@ session:
       url: /login
 base:
   boot:
-    is_need_validate: true;
+    is_need_validate: true
 
 witc:
   core:
