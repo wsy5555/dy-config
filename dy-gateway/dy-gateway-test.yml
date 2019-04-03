@@ -1,0 +1,54 @@
+zuul:
+  retryable: false
+  routes:
+    biz:
+      stripPrefix: false
+      path: /biz/**
+      serviceId: dy-biz
+    front:
+      stripPrefix: false
+      path: /front/**
+      serviceId: dy-front
+    equipment:
+      stripPrefix: false
+      path: /equipment/**
+      serviceId: dy-equipment
+    index:
+      path: /index/**
+      url: forward:/index
+    login:
+      path: /login/**
+      url: forward:/login
+    logout:
+      path: /logout/**
+      url: forward:/logout
+    framework:
+      path: /framework/**
+      stripPrefix: false
+      serviceId: dy-framework
+    finance:
+      path: /finance/**
+      stripPrefix: false
+      serviceId: dy-finance
+    base:
+      stripPrefix: false
+      path: /base/**
+      serviceId: dy-base
+    platform:
+      path: /platform/**
+      stripPrefix: false
+      serviceId: dy-platform
+  strip-prefix: true
+  prefix: /api
+  sensitiveHeaders: Cookie,Set-Cookie,Authorization
+
+# AES密码加密私钥(Base64加密)
+encryptAESKey: V2FuZzkyNjQ1NGRTQkFQSUpXVA==
+# JWT认证加密私钥(Base64加密)
+encryptJWTKey: U0JBUElKV1RkV2FuZzkyNjQ1NA==
+# AccessToken过期时间-5分钟-5*60(秒为单位)
+accessTokenExpireTime: 300
+# RefreshToken过期时间-30分钟-30*60(秒为单位)
+refreshTokenExpireTime: 1800
+# Shiro缓存过期时间-5分钟-5*60(秒为单位)(一般设置与AccessToken过期时间一致)
+shiroCacheExpireTime: 300
