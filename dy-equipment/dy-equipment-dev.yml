@@ -5,3 +5,12 @@ logging:
 mybatis-plus:
   typeAliasesPackage: com.witc.common.moduals.equipment.entity
   typeEnumsPackage: com.witc.common.moduals.equipment.entity.enums
+
+witc:
+  monitor:
+    logic:
+      log:
+        queue:
+          name: monitor_logic_dp_log_queueDev
+        exchange:
+          name: monitor_logic_dp_log_exchangeDev
