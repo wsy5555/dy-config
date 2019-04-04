@@ -1,6 +1,9 @@
 logging:
   level:
     com.witc.framework.dao: debug
+    org.springframework.web: debug
+# 配置Logfile Viewer
+  file: d:\logs\${spring.application.name}\%d{yyyy-MM, aux}\debug.%d{yyyy-MM-dd}.%i.log
 
 mybatis-plus:
   typeAliasesPackage: com.witc.common.moduals.framework.entity
