@@ -122,11 +122,6 @@ eureka:
       defaultZone: http://witcdy:Wanbit.2013@${EUREKA_ZONE_HOST:localhost}:${EUREKA_ZONE_PORT:7000}/discovery/eureka
 
 ---
-logging:
-  level:
-    root: INFO
-    com.witc: debug
-
 #springboot2.0的时候必须配置include: '*'
 management:
   endpoints:
