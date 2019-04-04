@@ -4,4 +4,4 @@ logging:
 
 mybatis-plus:
   typeAliasesPackage: com.witc.common.moduals.biz.entity
-  typeEnumsPackage: com.witc.common.moduals.biz.entity.enums
+#  typeEnumsPackage: com.witc.common.moduals.biz.entity.enums
