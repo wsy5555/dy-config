@@ -1,7 +1,6 @@
 logging:
   level:
     com.witc.framework.dao: debug
-    org.springframework.web: debug
 
 mybatis-plus:
   typeAliasesPackage: com.witc.common.moduals.framework.entity
