@@ -147,8 +147,11 @@ witc:
   core:
     jwt:
       enable: false
+    log:
+      routingKey: witc_sys_log_queue
   tenant:
     column: company_id
     tables:
       - sys_companyinfo
       - sys_company_lable
+
