@@ -152,6 +152,7 @@ witc:
   tenant:
     column: company_id
     tables:
+      - sys_user  #sysUser自己控制数据隔离
       - sys_companyinfo
       - sys_company_lable
 
