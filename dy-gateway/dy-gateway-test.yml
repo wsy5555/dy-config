@@ -52,3 +52,8 @@ accessTokenExpireTime: -1
 refreshTokenExpireTime: 1800
 # Shiro缓存过期时间-5分钟-5*60(秒为单位)(一般设置与AccessToken过期时间一致)
 shiroCacheExpireTime: 300
+
+witc:
+  dingTalk:
+    url: https://oapi.dingtalk.com/robot/send?access_token=a8a0ce24364da228c825e70513ff3b3fc5e137fd13ee7de380d56220ff7257d6
+    package-prefix: com.witc

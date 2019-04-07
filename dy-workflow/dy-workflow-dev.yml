@@ -1,0 +1,7 @@
+ignore-urls:
+  - '/service/**'
+  - '/editor-app/**'
+  - '/task/view/*'
+  - '/process/resource/**'
+  - '/modeler.html'
+  - '/ws/**'

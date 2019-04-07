@@ -7,3 +7,6 @@ fdfs:
 
 witc:
   fastdfsServerHost: http://192.168.1.244
+  dingTalk:
+    url: https://oapi.dingtalk.com/robot/send?access_token=a8a0ce24364da228c825e70513ff3b3fc5e137fd13ee7de380d56220ff7257d6
+    package-prefix: com.witc
