@@ -2,10 +2,6 @@ logging:
   level:
     com.witc.equipment.dao: debug
 
-mybatis-plus:
-  typeAliasesPackage: com.witc.common.moduals.equipment.entity
-#  typeEnumsPackage: com.witc.common.moduals.equipment.entity.enums
-
 # job elaticjob.zookeeper.serverLists
 elaticjob:
   zookeeper:

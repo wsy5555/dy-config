@@ -1,0 +1,3 @@
+mybatis-plus:
+  typeAliasesPackage: com.witc.common.moduals.report.entity
+#  typeEnumsPackage: com.witc.common.moduals.report.entity.enums
