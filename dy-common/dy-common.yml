@@ -156,6 +156,7 @@ witc:
       routingKey: witc_sys_log_queue
   tenant:
     column: company_id
+    superAdminTenantId: -1
     tables:
 #      - sys_user  #sysUser自己控制数据隔离
       - sys_companyinfo
