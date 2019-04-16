@@ -13,6 +13,6 @@ witc:
     logic:
       log:
         queue:
-          name: monitor_logic_dp_log_queueDev
+          name: monitor_logic_dp_log_queue
         exchange:
-          name: monitor_logic_dp_log_exchangeDev
+          name: monitor_logic_dp_log_exchange
