@@ -97,14 +97,6 @@ mybatis-plus:
     map-underscore-to-camel-case: true
     cache-enabled: false
 
-pagehelper:
-  params: count=countSql
-  # 指定分页插件使用哪种方言
-  helper-dialect: mysql
-  # 分页合理化参数 pageNum<=0时会查询第一页 pageNum>pages(超过总数时) 会查询最后一页
-  reasonable: 'true'
-  support-methods-arguments: 'true'
-
 ---
 ## Discovery Center
 eureka:
@@ -159,6 +151,7 @@ witc:
     superAdminTenantId: -1
     tables:
 #      - sys_user  #sysUser自己控制数据隔离
+      - equipment_logger
       - sys_companyinfo
       - sys_company_lable
 
