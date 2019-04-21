@@ -151,6 +151,7 @@ witc:
     superAdminTenantId: -1
     tables:
 #      - sys_user  #sysUser自己控制数据隔离
+      - equipment_day_static
       - equipment_logger
       - sys_companyinfo
       - sys_company_lable
