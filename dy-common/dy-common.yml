@@ -36,7 +36,7 @@ spring:
         max-active: 8
         max-wait: -1
   datasource:
-    url: jdbc:mysql://${DATASOURCE_HOST:120.79.106.197}:${DATASOURCE_PORT:3306}/dy-dev?useUnicode=true&characterEncoding=utf-8
+    url: jdbc:mysql://${DATASOURCE_HOST:120.79.106.197}:${DATASOURCE_PORT:3306}/${DATASOURCE_NAME:dy-dev}?useUnicode=true&characterEncoding=utf-8
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     username: ${DATASOURCE_USERNAME:root}
