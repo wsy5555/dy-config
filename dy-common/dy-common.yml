@@ -40,7 +40,7 @@ spring:
     driver-class-name: com.mysql.jdbc.Driver
     type: com.alibaba.druid.pool.DruidDataSource
     username: ${DATASOURCE_USERNAME:root}
-    password: ${DATASOURCE_PASSWORD:Wanbit.2013}
+    password: ${DATASOURCE_PASSWORD:123456}
     druid:
       maxActive: ${DATASOURCE_DRUID_MAXACTIVE:4}
       initialSize: ${DATASOURCE_DRUID_INITIALSIZE:4}
