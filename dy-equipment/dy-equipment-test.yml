@@ -16,3 +16,13 @@ witc:
           name: monitor_logic_dp_log_queue
         exchange:
           name: monitor_logic_dp_log_exchange
+      equipment:
+        queue:
+          name: monitor_logic_equipment_queue
+        exchange:
+          name: monitor_logic_equipment_exchange
+     api:
+       url: http://192.168.1.69:8080/monitor-api
+     tenant:
+       code: 111111
+       secret: VVVVVVVVVVVVVVVV
