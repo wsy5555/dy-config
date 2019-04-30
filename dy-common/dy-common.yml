@@ -28,12 +28,13 @@ spring:
     host: ${RABBITMQ_HOST:192.168.1.200}
     virtualHost: ${RABBITMQ_VHOST:dy}
   redis:
-      cluster:
-        nodes: ${REDIS_NODES:192.168.1.211:6479,192.168.1.211:6579,192.168.1.211:6679,192.168.1.212:6779,192.168.1.212:6879,192.168.1.212:6979}
+      host: ${REDIS_NODES:192.168.1.233}
+      port: ${REDIS_NODES_PORT:6379}
+      password: Wanbit.2013
       pool:
-        max-idle: 8
-        min-idle: 0
-        max-active: 8
+        max-idle: 20
+        min-idle: 20
+        max-active: 20
         max-wait: -1
   datasource:
     url: jdbc:mysql://${DATASOURCE_HOST:120.79.106.197}:${DATASOURCE_PORT:3306}/${DATASOURCE_NAME:dy-dev}?useUnicode=true&characterEncoding=utf-8

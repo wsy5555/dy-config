@@ -1,11 +1,11 @@
 logging:
   level:
-    com.witc.equipment.dao: debug
+    com.witc.equipment.dao: error
 
 # job elaticjob.zookeeper.serverLists
 elaticjob:
   zookeeper:
-    serverLists: 192.168.1.200:2181,192.168.1.201:2181
+    serverLists: 172.18.146.175:2181,172.18.146.161:2181,172.18.146.157:2181
     namespace: dy-equipment-elastic-job
 
 witc:
@@ -22,7 +22,7 @@ witc:
         exchange:
           name: monitor_logic_equipment_exchange
     api:
-      url: http://192.168.1.69:8080/monitor-api
+      url: http://120.78.202.241/monitor-api
     lac:
       appcode: e3380afe823d47cf84dda72acc456981
     tenant:

@@ -1,0 +1,2 @@
+mybatis-plus:
+  typeAliasesPackage: com.witc.common.moduals.base.entity

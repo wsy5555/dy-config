@@ -1,0 +1,3 @@
+logging:
+  level:
+    com.witc.base.dao: error
