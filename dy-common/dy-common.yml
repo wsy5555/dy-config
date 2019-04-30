@@ -30,7 +30,7 @@ spring:
   redis:
       host: ${REDIS_NODES:192.168.1.233}
       port: ${REDIS_NODES_PORT:6379}
-      password: Wanbit.2013
+      password: ${REDIS_NODES_PWD:Wanbit.2013}
       pool:
         max-idle: 20
         min-idle: 20
