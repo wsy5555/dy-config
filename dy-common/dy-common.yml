@@ -157,4 +157,5 @@ witc:
       - sys_companyinfo
       - sys_company_lable
       - equipment_lc_data
+      - sys_log
 
