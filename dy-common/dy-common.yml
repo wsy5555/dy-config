@@ -55,16 +55,6 @@ spring:
       testOnReturn: false
       poolPreparedStatements: true
       maxOpenPreparedStatements: 20
-  mvc:
-    date-format: yyyy-MM-dd HH:mm:ss
-  jackson:
-    date-format: yyyy-MM-dd HH:mm:ss
-    time-zone: GMT+8
-    deserialization:
-      #允许对象忽略json中不存在的属性
-      fail_on_unknown_properties: false
-
-#    property-naming-strategy: SNAKE_CASE ！！坑在这
 
 ---
 #mybatis:
