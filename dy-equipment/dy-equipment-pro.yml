@@ -2,12 +2,6 @@ logging:
   level:
     com.witc.equipment.dao: error
 
-# job elaticjob.zookeeper.serverLists
-elaticjob:
-  zookeeper:
-    serverLists: 172.18.146.175:2181,172.18.146.161:2181,172.18.146.157:2181
-    namespace: dy-equipment-elastic-job
-
 witc:
   monitor:
     logic:
