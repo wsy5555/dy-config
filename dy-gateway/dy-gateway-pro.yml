@@ -55,7 +55,7 @@ shiroCacheExpireTime: 300
 
 witc:
   dingTalk:
-    url: https://oapi.dingtalk.com/robot/send?access_token=a8a0ce24364da228c825e70513ff3b3fc5e137fd13ee7de380d56220ff7257d6
+    url: https://oapi.dingtalk.com/robot/send?access_token=837418a67ac4ca2a3df4ef34189ee13f1766aa006f8b6545a910120cdea054bd
     package-prefix: com.witc
 
 hystrix:
