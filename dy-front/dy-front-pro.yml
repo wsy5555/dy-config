@@ -1,0 +1,12 @@
+fdfs:
+  connect-timeout: 2000
+  so-timeout: 3000
+  tracker-list: 172.18.146.186:22122
+  pool:
+    maxTotal: 50
+
+witc:
+  fastdfsServerHost: http://120.78.202.241
+  dingTalk:
+    url: https://oapi.dingtalk.com/robot/send?access_token=837418a67ac4ca2a3df4ef34189ee13f1766aa006f8b6545a910120cdea054bd
+    package-prefix: com.witc
