@@ -27,15 +27,6 @@ spring:
     port: ${RABBITMQ_PORT:5672}
     host: ${RABBITMQ_HOST:192.168.1.200}
     virtualHost: ${RABBITMQ_VHOST:dy}
-  redis:
-      host: ${REDIS_NODES:192.168.1.233}
-      port: ${REDIS_NODES_PORT:6379}
-      password: ${REDIS_NODES_PWD:Wanbit.2013}
-      pool:
-        max-idle: 20
-        min-idle: 20
-        max-active: 20
-        max-wait: -1
   datasource:
     url: jdbc:mysql://${DATASOURCE_HOST:120.79.106.197}:${DATASOURCE_PORT:3306}/${DATASOURCE_NAME:dy-dev}?useUnicode=true&characterEncoding=utf-8
     driver-class-name: com.mysql.jdbc.Driver

@@ -21,6 +21,16 @@ RABBITMQ_HOST: 192.168.1.200
 RABBITMQ_PORT: 5672
 RABBITMQ_VHOST: dy
 
+spring:
+  redis:
+    host: ${REDIS_NODES:192.168.1.233}
+    port: ${REDIS_NODES_PORT:6379}
+    password: ${REDIS_NODES_PWD:Wanbit.2013}
+    pool:
+      max-idle: 20
+      min-idle: 20
+      max-active: 20
+      max-wait: -1
 
 witc:
   dev-model: true
