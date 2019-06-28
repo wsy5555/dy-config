@@ -16,7 +16,7 @@ witc:
         exchange:
           name: monitor_logic_equipment_exchange
     api:
-      url: http://192.168.1.69:8080/monitor-api
+      url: http://192.168.1.192:8080/monitor-api
     lac:
       appcode: e3380afe823d47cf84dda72acc456981
     tenant:
