@@ -19,7 +19,7 @@ witc:
       url: http://192.168.1.69:8080/monitor-api
     lac:
       appcode: e3380afe823d47cf84dda72acc456981
-      maxdistance: 5
+      maxdistance: 10
     tenant:
       code: 111111
       secret: VVVVVVVVVVVVVVVV
