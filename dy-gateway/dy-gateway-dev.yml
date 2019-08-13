@@ -38,6 +38,10 @@ zuul:
       path: /platform/**
       stripPrefix: false
       serviceId: dy-platform
+    report:
+      path: /report/**
+      stripPrefix: false
+      serviceId: dy-report  
   strip-prefix: true
   prefix: /api
   sensitiveHeaders: Cookie,Set-Cookie,Authorization
