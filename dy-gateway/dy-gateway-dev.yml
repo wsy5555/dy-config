@@ -40,7 +40,7 @@ zuul:
       serviceId: dy-platform
   strip-prefix: true
   prefix: /api
-#  sensitiveHeaders: Cookie,Set-Cookie,Authorization
+  sensitiveHeaders: Cookie,Set-Cookie
 
 # AES密码加密私钥(Base64加密)
 encryptAESKey: V2FuZzkyNjQ1NGRTQkFQSUpXVA==
