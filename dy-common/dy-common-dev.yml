@@ -64,6 +64,7 @@ hystrix:
           thread:
             timeoutInMilliseconds: 6000
           strategy: SEMAPHORE
+
 #ribbon的超时时间
 ribbon:
   ReadTimeout: 5000

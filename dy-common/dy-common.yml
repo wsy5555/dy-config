@@ -11,8 +11,6 @@ management:
     enabled: false
 
 spring:
-  main:
-    allow-bean-definition-overriding: true
   cloud:
     config:
       override-none: true
@@ -107,12 +105,6 @@ eureka:
     metadata-map:
       management:
         context-path: ${server.servlet.context-path}/actuator
-  client:
-    # 从注册中心拉取服务列表时间间隔
-    registry-fetch-interval-seconds: 5
-    # 注册中心地址
-    service-url:
-      defaultZone: http://witcdy:Wanbit.2013@${EUREKA_ZONE_HOST:localhost}:${EUREKA_ZONE_PORT:7000}/discovery/eureka
 
 ---
 #springboot2.0的时候必须配置include: '*'
