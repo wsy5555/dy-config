@@ -1,0 +1,10 @@
+spring:
+  zipkin:
+#    base-url: http://localhost:7008
+    rabbitmq:
+      queue: zipkin2
+  sleuth:
+    sampler:
+      percentage: 1.0
+    scheduled:
+      skipPattern: org.springframework.cloud.netflix.hystrix.stream.HystrixStreamTask
