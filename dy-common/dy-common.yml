@@ -11,6 +11,8 @@ management:
     enabled: false
 
 spring:
+  main:
+    allow-bean-definition-overriding: true
   cloud:
     config:
       override-none: true
