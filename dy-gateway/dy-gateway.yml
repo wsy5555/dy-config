@@ -8,3 +8,9 @@ spring:
       percentage: 1.0
     scheduled:
       skipPattern: org.springframework.cloud.netflix.hystrix.stream.HystrixStreamTask
+  rabbitmq:
+    username: ${RABBITMQ_USERNAME:admin}
+    password: ${RABBITMQ_PASSWORD:123456}
+    port: ${RABBITMQ_PORT:5672}
+    host: ${RABBITMQ_HOST:192.168.1.200}
+    virtualHost: ${RABBITMQ_VHOST:dy}

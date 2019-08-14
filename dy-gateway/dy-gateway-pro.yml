@@ -1,3 +1,9 @@
+RABBITMQ_USERNAME: admin
+RABBITMQ_PASSWORD: Wanbit.2013
+RABBITMQ_HOST: 172.18.146.208
+RABBITMQ_PORT: 5672
+RABBITMQ_VHOST: dy
+
 zuul:
   retryable: false
   routes:
