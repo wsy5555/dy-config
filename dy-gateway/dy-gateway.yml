@@ -6,8 +6,6 @@ spring:
   sleuth:
     sampler:
       percentage: 1.0
-    scheduled:
-      skipPattern: org.springframework.cloud.netflix.hystrix.stream.HystrixStreamTask
   rabbitmq:
     username: ${RABBITMQ_USERNAME:admin}
     password: ${RABBITMQ_PASSWORD:123456}
