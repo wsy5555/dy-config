@@ -14,10 +14,15 @@ spring:
   cloud:
     config:
       override-none: true
-#  zipkin:
+  zipkin:
 #    base-url: http://localhost:7008
-#    rabbitmq:
-#      queue: zipkin2
+    enabled: true
+    sender:
+      type: rabbit
+    rabbitmq:
+      queue: zipkin2
+    service:
+      name: ${spring.application.name}
 
   sleuth:
     sampler:
