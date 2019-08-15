@@ -18,10 +18,11 @@ spring:
 #    base-url: http://localhost:7008
     rabbitmq:
       queue: zipkin2
+    sender:
+      type: RABBIT
   sleuth:
     sampler:
       probability: 1.0
-      percentage: 1.0
     scheduled:
       skipPattern: org.springframework.cloud.netflix.hystrix.stream.HystrixStreamTask
   rabbitmq:
