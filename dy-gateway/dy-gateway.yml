@@ -1,6 +1,6 @@
 spring:
   zipkin:
-#    base-url: http://localhost:7008
+    base-url: http://localhost:7008
     rabbitmq:
       queue: zipkin2
     sender:
