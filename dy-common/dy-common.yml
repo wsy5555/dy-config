@@ -20,6 +20,7 @@ spring:
 #      queue: zipkin2
   sleuth:
     sampler:
+      probability: 1.0
       percentage: 1.0
     scheduled:
       skipPattern: org.springframework.cloud.netflix.hystrix.stream.HystrixStreamTask

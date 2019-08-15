@@ -5,6 +5,7 @@ spring:
 #      queue: zipkin2
   sleuth:
     sampler:
+      probability: 1.0
       percentage: 1.0
   rabbitmq:
     username: ${RABBITMQ_USERNAME:admin}
