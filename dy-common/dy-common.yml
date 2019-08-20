@@ -125,12 +125,12 @@ management:
 
 ---
 #feign
-feign:
-  httpclient:
-    enabled: false
-  okhttp:
-    enabled: true
-  # 请求与响应的压缩以提高通信效率
+#feign:
+#  httpclient:
+#    enabled: false
+#  okhttp:
+#    enabled: true
+#   #请求与响应的压缩以提高通信效率
 #  compression:
 #    request:
 #      enabled: true
