@@ -124,6 +124,22 @@ management:
       show-details: ALWAYS
 
 ---
+#feign
+feign:
+  httpclient:
+    enabled: false
+  okhttp:
+    enabled: true
+  # 请求与响应的压缩以提高通信效率
+#  compression:
+#    request:
+#      enabled: true
+#      min-request-size: 2048
+#      mime-types: text/xml,application/xml,application/json
+#    response:
+#      enabled: true
+
+---
 api:
   url:
     pre: /api
