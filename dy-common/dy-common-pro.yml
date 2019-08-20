@@ -63,7 +63,9 @@ hystrix:
           thread:
             timeoutInMilliseconds: 11000
           strategy: SEMAPHORE
-#ribbon的超时时间
+#ribbon的超时时间 (ribbon.ConnectTimeout + ribbon.ReadTimeout) * (ribbon.MaxAutoRetries + 1) * (ribbon.MaxAutoRetriesNextServer + 1)
 ribbon:
-  ReadTimeout: 10000
-  ConnectTimeout: 10000
+  ReadTimeout: 9000
+  ConnectTimeout: 1000
+  MaxAutoRetries: 0  #不重试
+  MaxAutoRetriesNextServer: 0 #不尝试下一台机器
